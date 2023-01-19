@@ -1,256 +1,122 @@
 <!DOCTYPE html>
-
-<html lang="tr">
-
+<html lang="en">
 <head>
-
-  <meta charset="utf-8">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>Kerem Aydınlar Fen Lisesi Ana sayfa</title>
-
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
   <style>
-    body {
-
-      background-color: #00CCCC;
-
-    }
-
     .navbar {
-
-      background-color: #000000;
-
+      background-color: #222222;
     }
-
-    .navbar .navbar-brand,
-    .navbar .navbar-text {
-
-      color: #FFFFFF;
-
+    .navbar a {
+      color: #ffffff;
     }
-
-    .navbar .navbar-nav .nav-link {
-
-      color: #FFFFFF;
-
+    .card {
+      background-color: #c4c4c4;
+      color: #222222;
     }
-    img{
-        border: solid 5px;
-        border-radius: 5px;
+    .card a {
+      color: #222222;
     }
   </style>
-
+  <title>Kerem Aydınlar Fen Lisesi</title>
 </head>
-
 <body>
-
   <nav class="navbar navbar-expand-lg navbar-dark">
-
     <div class="container-fluid">
-
-      <a class="navbar-brand" href="#">Kerem Aydınlar Fen Lisesi</a>
-
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-
+      <a class="navbar-brand" href="index.html">Kerem Aydınlar Fen Lisesi</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-
       </button>
-
       <div class="collapse navbar-collapse" id="navbarNav">
-
         <ul class="navbar-nav ml-auto">
-
           <li class="nav-item active">
-
             <a class="nav-link" href="index.html">Ana Sayfa</a>
-
           </li>
-
           <li class="nav-item">
-
-            <a class="nav-link" href="kural.html">Kurallar</a>
-
+            <a class="nav-link" href="kural.html">kurallar</a>
           </li>
-
           <li class="nav-item">
-
             <a class="nav-link" href="iletisim.html">İletişim</a>
-
           </li>
-
         </ul>
-
       </div>
-
     </div>
-
   </nav>
-
   <div class="container mt-5">
-
-    <h1 class="text-center text-white">Kerem Aydınlar Fen Lisesi</h1>
-
-    <div class="row mt-5">
-
-      <div class="col-md-3">
-
-        <div class="list-group" id="list-tab" role="tablist">
-
-          <a class="list-group-item list-group-item-action active" id="list-genel-list" data-toggle="list"
-            href="#list-genel" role="tab" aria-controls="genel">Okulumuzun Resimleri</a>
-
-          <a class="list-group-item list-group-item-action" id="list-okul-disiplini-list" data-toggle="list"
-            href="#list-okul-disiplini" role="tab" aria-controls="okul-disiplini">Okul Disiplini</a>
-
-          <a class="list-group-item list-group-item-action" id="list-ders-programi-list" data-toggle="list"
-            href="#list-ders-programi" role="tab" aria-controls="ders-programi">Ders Programı</a>
-
-          <a class="list-group-item list-group-item-action" id="list-ogrenci-elbiseleri-list" data-toggle="list"
-            href="#list-ogrenci-elbiseleri" role="tab" aria-controls="ogrenci-elbiseleri">Öğrenci Elbiseleri</a>
-
-        </div>
-
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <img src="images/okul0.jpg" alt="Okul Görüntüsü" class="img-fluid">
       </div>
-
-      <div class="col-md-9">
-
-        <div class="tab-content" id="nav-tabContent">
-
-          <div class="tab-pane fade show active" id="list-genel" role="tabpanel" aria-labelledby="list-genel-list">
-
-            <h3 class="text-white">Okulumuzun Resimleri</h3>
-            <table>
-                <tbody>
-                    <tr><img style="margin: 5px;" src="images/okul.jpg" width="200px" height="200px" alt="">
-                        <img style="margin: 5px;" src="images/okul0.jpg" width="200px" height="200px" alt="">
-                        <img style="margin: 5px;" src="images/okul1.jpg" width="200px" height="200px" alt="">
-                        <img style="margin: 5px;" src="images/okul2.jpg" width="200px" height="200px" alt="">
-                        <img style="margin: 5px;" src="images/okul3.jpg" width="200px" height="200px" alt="">
-                        <img style="margin: 5px;" src="images/okul4.jpg" width="200px" height="200px" alt="">
-                    </tr>
-                </tbody>
-            </table>
-            
-
-          </div>
-
-          <div class="tab-pane fade" id="list-okul-disiplini" role="tabpanel"
-            aria-labelledby="list-okul-disiplini-list">
-
-            <h3 class="text-white">Okul Disiplini</h3>
-
-            <p class="text-white">Okulumuzda aşağıdaki disiplin kurallarına uyulması zorunludur:</p>
-
-            <ul>
-
-              <li>Okulumuzda zamanında geliniz.</li>
-
-              <li>Okulumuza uygun bir elbise ile geliniz.</li>
-
-              <li>Sınıflarda ve öğrenci yurtlarında sigara içilmemesi gerekmektedir.</li>
-
-              <li>Sınıflarda ve öğrenci yurtlarında alkol tüketilmemesi gerekmektedir.</li>
-
-              <li>Okulun etik değerlerine uygun davranış sergilemelisiniz.</li>
-
-              <li>Derslerde ve okul etkinliklerinde aktif bir şekilde katılmalısınız.</li>
-
-            </ul>
-
-          </div>
-
-          <div class="tab-pane fade" id="list-ders-programi" role="tabpanel" aria-labelledby="list-ders-programi-list">
-
-            <h3 class="text-white">Ders Programı</h3>
-
-            <p class="text-white">Okulumuzda aşağıdaki ders programı kurallarına uyulması zorunludur:</p>
-
-            <ul>
-
-              <li>Derslerde zamanında olunuz.</li>
-
-              <li>Dersler sırasında sessiz bir ortamda dinlenmelisiniz.</li>
-
-              <li>Derslerde not almaya özen gösteriniz.</li>
-
-              <li>Derslerde aktif bir şekilde katılmalısınız.</li>
-
-              <li>Derslerde öğretmenlerin talimatlarına uyunuz.</li>
-
-            </ul>
-
-          </div>
-
-          <div class="tab-pane fade" id="list-ogrenci-elbiseleri" role="tabpanel"
-            aria-labelledby="list-ogrenci-elbiseleri-list">
-
-            <h3 class="text-white">Öğrenci Elbiseleri</h3>
-
-            <p class="text-white">Okulumuzda aşağıdaki öğrenci elbise kurallarına uyulması zorunludur:</p>
-
-            <ul>
-
-              <li>Okulumuza okul kıyafeti ile geliniz.</li>
-
-              <li>Sınıflarda ve okul etkinliklerinde spor ayakkabı giyilmemesi gerekmektedir.</li>
-
-            </ul>
-
-          </div>
-
-        </div>
-
+      <div class="col-md-6">
+                <h1>Kerem Aydınlar Fen Lisesi</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur odio eu ipsum tempus, a dictum diam tincidunt. Fusce nec consectetur dui. Proin sed condimentum justo. Aliquam erat volutpat. Ut in consectetur nisl, quis aliquet leo. Vivamus auctor risus at diam tristique, eu tincidunt lacus fermentum. In hac habitasse platea dictumst. In hac habitasse platea dictumst.</p>
+        <a href="#" class="btn btn-primary">Okul Hakkında Daha Fazla Bilgi</a>
       </div>
-
     </div>
-
   </div>
-  <footer class="bg-dark text-white py-5">
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="classroom.jpg" alt="Sınıf Görüntüsü" class="card-img-top">
+          <div class="card-body">
+            <h4 class="card-title">Sınıflarımız</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur odio eu ipsum tempus, a dictum diam tincidunt. Fusce nec consectetur dui.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="library.jpg" alt="Kütüphane Görüntüsü" class="card-img-top">
+          <div class="card-body">
+            <h4 class="card-title">Kütüphane</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur odio eu ipsum tempus, a dictum diam tincidunt. Fusce nec consectetur dui.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="spor.jpg" alt="Spor Alanı Görüntüsü" class="card-img-top">
+          <div class="card-body">
+            <h4 class="card-title">Spor Alanı</h4>
+                       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur odio eu ipsum tempus, a dictum diam tincidunt. Fusce nec consectetur dui.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="bg-dark text-white py-3 mt-5">
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
-          <h3>Lorem.</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non elit mollis, scelerisque diam non,
-            efficitur diam. Donec id mi vehicula, congue elit a, luctus metus. In hac habitasse platea dictumst.</p>
+        <div class="col-md-4 mb-4">
+          <h4>Kerem Aydınlar Fen Lisesi</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur odio eu ipsum tempus, a dictum diam tincidunt. Fusce nec consectetur dui.</p>
         </div>
-        <div class="col-md-4">
-          <h3>Lorem.</h3>
+        <div class="col-md-4 mb-4">
+          <h4>Linkler</h4>
           <ul class="list-unstyled">
-            <li>Email: info@keremaydinlarfenlisesi.com</li>
-            <li>Phone: +90 555 555 55 55</li>
-            <li>Address: Kerem Aydınlar Fen Lisesi, Ankara, Turkey</li>
+            <li><a href="#">Ana Sayfa</a></li>
+            <li><a href="#">Kurallar</a></li>
+            <li><a href="#">İletişim</a></li>
           </ul>
         </div>
-        <div class="col-md-4">
-          <h3>Lorem.</h3>
-          <ul class="list-inline">
-            <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-square fa-2x"></i></a></li>
-            <li class="list-inline-item"><a href="#"><i class="fab fa-twitter-square fa-2x"></i></a></li>
-            <li class="list-inline-item"><a href="#"><i class="fab fa-instagram fa-2x"></i></a></li>
+        <div class="col-md-4 mb-4">
+          <h4>İletişim</h4>
+          <ul class="list-unstyled">
+            <li>Adres: Lorem ipsum dolor sit amet</li>
+            <li>Telefon: +90 123 45 67</li>
+            <li>Email: info@keremaydinlarfenlisesi.com</li>
           </ul>
         </div>
       </div>
     </div>
   </footer>
-
-
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-    crossorigin="anonymous"></script>
-
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
-
 </html>
+
